@@ -1,0 +1,13 @@
+D:\Courses\C#Completo\DataOutput\DataOutputExercicio1\DataOutputExercicio1\obj\Debug\netcoreapp3.1\DataOutputExercicio1.csproj.AssemblyReference.cache
+D:\Courses\C#Completo\DataOutput\DataOutputExercicio1\DataOutputExercicio1\obj\Debug\netcoreapp3.1\DataOutputExercicio1.AssemblyInfoInputs.cache
+D:\Courses\C#Completo\DataOutput\DataOutputExercicio1\DataOutputExercicio1\obj\Debug\netcoreapp3.1\DataOutputExercicio1.AssemblyInfo.cs
+D:\Courses\C#Completo\DataOutput\DataOutputExercicio1\DataOutputExercicio1\obj\Debug\netcoreapp3.1\DataOutputExercicio1.csproj.CoreCompileInputs.cache
+D:\Courses\C#Completo\DataOutput\DataOutputExercicio1\DataOutputExercicio1\bin\Debug\netcoreapp3.1\DataOutputExercicio1.exe
+D:\Courses\C#Completo\DataOutput\DataOutputExercicio1\DataOutputExercicio1\bin\Debug\netcoreapp3.1\DataOutputExercicio1.deps.json
+D:\Courses\C#Completo\DataOutput\DataOutputExercicio1\DataOutputExercicio1\bin\Debug\netcoreapp3.1\DataOutputExercicio1.runtimeconfig.json
+D:\Courses\C#Completo\DataOutput\DataOutputExercicio1\DataOutputExercicio1\bin\Debug\netcoreapp3.1\DataOutputExercicio1.runtimeconfig.dev.json
+D:\Courses\C#Completo\DataOutput\DataOutputExercicio1\DataOutputExercicio1\bin\Debug\netcoreapp3.1\DataOutputExercicio1.dll
+D:\Courses\C#Completo\DataOutput\DataOutputExercicio1\DataOutputExercicio1\bin\Debug\netcoreapp3.1\DataOutputExercicio1.pdb
+D:\Courses\C#Completo\DataOutput\DataOutputExercicio1\DataOutputExercicio1\obj\Debug\netcoreapp3.1\DataOutputExercicio1.dll
+D:\Courses\C#Completo\DataOutput\DataOutputExercicio1\DataOutputExercicio1\obj\Debug\netcoreapp3.1\DataOutputExercicio1.pdb
+D:\Courses\C#Completo\DataOutput\DataOutputExercicio1\DataOutputExercicio1\obj\Debug\netcoreapp3.1\DataOutputExercicio1.genruntimeconfig.cache

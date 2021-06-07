@@ -1,0 +1,12 @@
+D:\Courses\C#Completo\DataOutput\DataOutput\DataOutput\bin\Debug\netcoreapp3.1\DataOutput.exe
+D:\Courses\C#Completo\DataOutput\DataOutput\DataOutput\bin\Debug\netcoreapp3.1\DataOutput.deps.json
+D:\Courses\C#Completo\DataOutput\DataOutput\DataOutput\bin\Debug\netcoreapp3.1\DataOutput.runtimeconfig.json
+D:\Courses\C#Completo\DataOutput\DataOutput\DataOutput\bin\Debug\netcoreapp3.1\DataOutput.runtimeconfig.dev.json
+D:\Courses\C#Completo\DataOutput\DataOutput\DataOutput\bin\Debug\netcoreapp3.1\DataOutput.dll
+D:\Courses\C#Completo\DataOutput\DataOutput\DataOutput\bin\Debug\netcoreapp3.1\DataOutput.pdb
+D:\Courses\C#Completo\DataOutput\DataOutput\DataOutput\obj\Debug\netcoreapp3.1\DataOutput.AssemblyInfoInputs.cache
+D:\Courses\C#Completo\DataOutput\DataOutput\DataOutput\obj\Debug\netcoreapp3.1\DataOutput.AssemblyInfo.cs
+D:\Courses\C#Completo\DataOutput\DataOutput\DataOutput\obj\Debug\netcoreapp3.1\DataOutput.csproj.CoreCompileInputs.cache
+D:\Courses\C#Completo\DataOutput\DataOutput\DataOutput\obj\Debug\netcoreapp3.1\DataOutput.dll
+D:\Courses\C#Completo\DataOutput\DataOutput\DataOutput\obj\Debug\netcoreapp3.1\DataOutput.pdb
+D:\Courses\C#Completo\DataOutput\DataOutput\DataOutput\obj\Debug\netcoreapp3.1\DataOutput.genruntimeconfig.cache
