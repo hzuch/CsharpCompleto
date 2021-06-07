@@ -1,0 +1,13 @@
+D:\Courses\C#Completo\FirstC#Program\FirstApp\FirstApp\bin\Debug\netcoreapp3.1\FirstApp.exe
+D:\Courses\C#Completo\FirstC#Program\FirstApp\FirstApp\bin\Debug\netcoreapp3.1\FirstApp.deps.json
+D:\Courses\C#Completo\FirstC#Program\FirstApp\FirstApp\bin\Debug\netcoreapp3.1\FirstApp.runtimeconfig.json
+D:\Courses\C#Completo\FirstC#Program\FirstApp\FirstApp\bin\Debug\netcoreapp3.1\FirstApp.runtimeconfig.dev.json
+D:\Courses\C#Completo\FirstC#Program\FirstApp\FirstApp\bin\Debug\netcoreapp3.1\FirstApp.dll
+D:\Courses\C#Completo\FirstC#Program\FirstApp\FirstApp\bin\Debug\netcoreapp3.1\FirstApp.pdb
+D:\Courses\C#Completo\FirstC#Program\FirstApp\FirstApp\obj\Debug\netcoreapp3.1\FirstApp.csproj.AssemblyReference.cache
+D:\Courses\C#Completo\FirstC#Program\FirstApp\FirstApp\obj\Debug\netcoreapp3.1\FirstApp.AssemblyInfoInputs.cache
+D:\Courses\C#Completo\FirstC#Program\FirstApp\FirstApp\obj\Debug\netcoreapp3.1\FirstApp.AssemblyInfo.cs
+D:\Courses\C#Completo\FirstC#Program\FirstApp\FirstApp\obj\Debug\netcoreapp3.1\FirstApp.csproj.CoreCompileInputs.cache
+D:\Courses\C#Completo\FirstC#Program\FirstApp\FirstApp\obj\Debug\netcoreapp3.1\FirstApp.dll
+D:\Courses\C#Completo\FirstC#Program\FirstApp\FirstApp\obj\Debug\netcoreapp3.1\FirstApp.pdb
+D:\Courses\C#Completo\FirstC#Program\FirstApp\FirstApp\obj\Debug\netcoreapp3.1\FirstApp.genruntimeconfig.cache
