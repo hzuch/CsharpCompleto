@@ -1,0 +1,12 @@
+D:\Courses\C#Completo\DataIput\DataIput\bin\Debug\netcoreapp3.1\DataIput.exe
+D:\Courses\C#Completo\DataIput\DataIput\bin\Debug\netcoreapp3.1\DataIput.deps.json
+D:\Courses\C#Completo\DataIput\DataIput\bin\Debug\netcoreapp3.1\DataIput.runtimeconfig.json
+D:\Courses\C#Completo\DataIput\DataIput\bin\Debug\netcoreapp3.1\DataIput.runtimeconfig.dev.json
+D:\Courses\C#Completo\DataIput\DataIput\bin\Debug\netcoreapp3.1\DataIput.dll
+D:\Courses\C#Completo\DataIput\DataIput\bin\Debug\netcoreapp3.1\DataIput.pdb
+D:\Courses\C#Completo\DataIput\DataIput\obj\Debug\netcoreapp3.1\DataIput.AssemblyInfoInputs.cache
+D:\Courses\C#Completo\DataIput\DataIput\obj\Debug\netcoreapp3.1\DataIput.AssemblyInfo.cs
+D:\Courses\C#Completo\DataIput\DataIput\obj\Debug\netcoreapp3.1\DataIput.csproj.CoreCompileInputs.cache
+D:\Courses\C#Completo\DataIput\DataIput\obj\Debug\netcoreapp3.1\DataIput.dll
+D:\Courses\C#Completo\DataIput\DataIput\obj\Debug\netcoreapp3.1\DataIput.pdb
+D:\Courses\C#Completo\DataIput\DataIput\obj\Debug\netcoreapp3.1\DataIput.genruntimeconfig.cache

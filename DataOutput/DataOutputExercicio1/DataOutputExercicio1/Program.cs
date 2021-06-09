@@ -25,6 +25,12 @@ namespace DataOutputExercicio1
             Console.WriteLine("Medida com oito casas decimais: " + medida.ToString("F8"));
             Console.WriteLine("Arredondado (três casas decimais): " + medida.ToString("F3"));
             Console.WriteLine("Separador decimal invariant culture: " + medida.ToString("F3", CultureInfo.InvariantCulture));
+
+            int a = 5;
+            int b = 2;
+
+            double result = (double)a / b;
+            Console.WriteLine(result);
         }
     }
 }
