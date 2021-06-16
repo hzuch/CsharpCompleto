@@ -1,8 +1,8 @@
 ﻿namespace Classes
 {
-    class Pessoa
+    class Funcionario
     {
         public string Nome;
-        public int Idade;
+        public double Salario;
     }
 }

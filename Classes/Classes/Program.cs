@@ -41,7 +41,7 @@ namespace Classes
             //------------------------------------------
             // EXERCICIO 1
 
-            Pessoa pessoa1, pessoa2;
+            /*Pessoa pessoa1, pessoa2;
             pessoa1 = new Pessoa();
             pessoa2 = new Pessoa();
 
@@ -64,7 +64,29 @@ namespace Classes
             else
             {
                 Console.WriteLine("pessoa mais velha: " + pessoa2.Nome);
-            }
+            }*/
+
+            //-------------------------------------------------------------------
+            // EXERCICIO 2
+
+            Funcionario f1, f2;
+            f1 = new Funcionario();
+            f2 = new Funcionario();
+
+            Console.WriteLine("Digite os dados do primeiro funcionário:");
+            Console.Write("Nome: ");
+            f1.Nome = Console.ReadLine();
+            Console.Write("Salário: ");
+            f1.Salario = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite os dados do segundo funcionário:");
+            Console.Write("Nome: ");
+            f2.Nome = Console.ReadLine();
+            Console.Write("Salário: ");
+            f2.Salario = double.Parse(Console.ReadLine());
+
+            double salarioMedio = (f1.Salario + f2.Salario) / 2;
+            Console.WriteLine("Salário médio = " + salarioMedio.ToString("F2"));
         }
     }
 }
