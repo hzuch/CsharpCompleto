@@ -1,0 +1,13 @@
+D:\Courses\C#Completo\Classes\Classes\bin\Debug\netcoreapp3.1\Classes.exe
+D:\Courses\C#Completo\Classes\Classes\bin\Debug\netcoreapp3.1\Classes.deps.json
+D:\Courses\C#Completo\Classes\Classes\bin\Debug\netcoreapp3.1\Classes.runtimeconfig.json
+D:\Courses\C#Completo\Classes\Classes\bin\Debug\netcoreapp3.1\Classes.runtimeconfig.dev.json
+D:\Courses\C#Completo\Classes\Classes\bin\Debug\netcoreapp3.1\Classes.dll
+D:\Courses\C#Completo\Classes\Classes\bin\Debug\netcoreapp3.1\Classes.pdb
+D:\Courses\C#Completo\Classes\Classes\obj\Debug\netcoreapp3.1\Classes.csproj.AssemblyReference.cache
+D:\Courses\C#Completo\Classes\Classes\obj\Debug\netcoreapp3.1\Classes.AssemblyInfoInputs.cache
+D:\Courses\C#Completo\Classes\Classes\obj\Debug\netcoreapp3.1\Classes.AssemblyInfo.cs
+D:\Courses\C#Completo\Classes\Classes\obj\Debug\netcoreapp3.1\Classes.csproj.CoreCompileInputs.cache
+D:\Courses\C#Completo\Classes\Classes\obj\Debug\netcoreapp3.1\Classes.dll
+D:\Courses\C#Completo\Classes\Classes\obj\Debug\netcoreapp3.1\Classes.pdb
+D:\Courses\C#Completo\Classes\Classes\obj\Debug\netcoreapp3.1\Classes.genruntimeconfig.cache
