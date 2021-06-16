@@ -6,7 +6,7 @@ namespace Classes
     {
         static void Main(string[] args)
         {
-            Triangulo x, y;
+            /*Triangulo x, y;
             x = new Triangulo();
             y = new Triangulo();
 
@@ -36,6 +36,34 @@ namespace Classes
             else
             {
                 Console.WriteLine("Triângulo maior é o Y");
+            }*/
+
+            //------------------------------------------
+            // EXERCICIO 1
+
+            Pessoa pessoa1, pessoa2;
+            pessoa1 = new Pessoa();
+            pessoa2 = new Pessoa();
+
+            Console.WriteLine("Digite os dados da primeira pessoa:");
+            Console.Write("Nome: ");
+            pessoa1.Nome = Console.ReadLine();
+            Console.Write("Idade: ");
+            pessoa1.Idade = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite os dados da segunda pessoa:");
+            Console.Write("Nome: ");
+            pessoa2.Nome = Console.ReadLine();
+            Console.Write("Idade: ");
+            pessoa2.Idade = int.Parse(Console.ReadLine());
+
+            if (pessoa1.Idade > pessoa2.Idade)
+            {
+                Console.WriteLine("Pessoa mais velha: " + pessoa1.Nome);
+            }
+            else
+            {
+                Console.WriteLine("pessoa mais velha: " + pessoa2.Nome);
             }
         }
     }
