@@ -70,7 +70,7 @@ namespace Classes
             //------------------------------------------
             // EXERCICIO 3
 
-            Aluno aluno1 = new Aluno();
+            /*Aluno aluno1 = new Aluno();
 
             Console.Write("Nome: ");
             aluno1.Name = Console.ReadLine();
@@ -89,7 +89,18 @@ namespace Classes
             {
                 Console.WriteLine("REPROVADO");
                 Console.WriteLine($"FALTARAM {aluno1.HowMuchBelowPassMark():F2} PONTOS");
-            }
+            }*/
+
+
+            //------------------------------------------
+            // EXERCICIO 3
+
+            Console.Write("Qual é a cotação do dolar? ");
+            double cotacao = double.Parse(Console.ReadLine());
+            Console.Write("Quantos dólares vocês vai comprar? ");
+            double dolares = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Valor a ser pago em reais = " + ConversorDeMoeda.Converter(cotacao, dolares).ToString("F2"));
         }
     }
 }
