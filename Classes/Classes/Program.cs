@@ -50,7 +50,7 @@ namespace Classes
             //------------------------------------------
             // EXERCICIO 2
 
-            Funcionario f = new Funcionario();
+            /*Funcionario f = new Funcionario();
 
             Console.Write("Nome: ");
             f.Nome = Console.ReadLine();
@@ -64,8 +64,32 @@ namespace Classes
             Console.Write("Digite a porcentagem para aumentar salário: ");
             f.AumentarSalario(double.Parse(Console.ReadLine()));
 
-            Console.WriteLine(f.ToString());
+            Console.WriteLine(f.ToString());*/
 
+
+            //------------------------------------------
+            // EXERCICIO 3
+
+            Aluno aluno1 = new Aluno();
+
+            Console.Write("Nome: ");
+            aluno1.Name = Console.ReadLine();
+
+            Console.Write("Digite as três notas do aluno: ");
+            aluno1.Score1 = double.Parse(Console.ReadLine());
+            aluno1.Score2 = double.Parse(Console.ReadLine());
+            aluno1.Score3 = double.Parse(Console.ReadLine());
+
+            Console.WriteLine($"NOTA FINAL = {aluno1.FinalScore():F2}");
+            if (aluno1.IsApproved())
+            {
+                Console.WriteLine("APROVADO");
+            }
+            else
+            {
+                Console.WriteLine("REPROVADO");
+                Console.WriteLine($"FALTARAM {aluno1.HowMuchBelowPassMark():F2} PONTOS");
+            }
         }
     }
 }
