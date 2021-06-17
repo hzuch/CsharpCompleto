@@ -38,14 +38,34 @@ namespace Classes
             //------------------------------------------
             // EXERCICIO 1
 
-            Retangulo r = new Retangulo();
+            /*Retangulo r = new Retangulo();
 
             Console.WriteLine("Entre a largura e altura do retângulo");
             r.Largura = double.Parse(Console.ReadLine());
             r.Altura = double.Parse(Console.ReadLine());
             Console.WriteLine("Area = " + r.Area().ToString("F2"));
             Console.WriteLine("perimetro = " + r.Perimetro().ToString("F2"));
-            Console.WriteLine("Diagonal = " + r.Diagonal().ToString("F2"));
+            Console.WriteLine("Diagonal = " + r.Diagonal().ToString("F2"));*/
+
+            //------------------------------------------
+            // EXERCICIO 2
+
+            Funcionario f = new Funcionario();
+
+            Console.Write("Nome: ");
+            f.Nome = Console.ReadLine();
+            Console.Write("Salário Bruto: ");
+            f.Salario = double.Parse(Console.ReadLine());
+            Console.Write("Imposto: ");
+            f.Imposto = double.Parse(Console.ReadLine());
+
+            Console.WriteLine(f.ToString());
+
+            Console.Write("Digite a porcentagem para aumentar salário: ");
+            f.AumentarSalario(double.Parse(Console.ReadLine()));
+
+            Console.WriteLine(f.ToString());
+
         }
     }
 }
