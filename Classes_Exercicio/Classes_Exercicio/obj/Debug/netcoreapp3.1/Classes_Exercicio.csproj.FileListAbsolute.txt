@@ -1,0 +1,13 @@
+D:\Courses\C#Completo\Classes_Exercicio\Classes_Exercicio\obj\Debug\netcoreapp3.1\Classes_Exercicio.csproj.AssemblyReference.cache
+D:\Courses\C#Completo\Classes_Exercicio\Classes_Exercicio\obj\Debug\netcoreapp3.1\Classes_Exercicio.AssemblyInfoInputs.cache
+D:\Courses\C#Completo\Classes_Exercicio\Classes_Exercicio\obj\Debug\netcoreapp3.1\Classes_Exercicio.AssemblyInfo.cs
+D:\Courses\C#Completo\Classes_Exercicio\Classes_Exercicio\obj\Debug\netcoreapp3.1\Classes_Exercicio.csproj.CoreCompileInputs.cache
+D:\Courses\C#Completo\Classes_Exercicio\Classes_Exercicio\bin\Debug\netcoreapp3.1\Classes_Exercicio.exe
+D:\Courses\C#Completo\Classes_Exercicio\Classes_Exercicio\bin\Debug\netcoreapp3.1\Classes_Exercicio.deps.json
+D:\Courses\C#Completo\Classes_Exercicio\Classes_Exercicio\bin\Debug\netcoreapp3.1\Classes_Exercicio.runtimeconfig.json
+D:\Courses\C#Completo\Classes_Exercicio\Classes_Exercicio\bin\Debug\netcoreapp3.1\Classes_Exercicio.runtimeconfig.dev.json
+D:\Courses\C#Completo\Classes_Exercicio\Classes_Exercicio\bin\Debug\netcoreapp3.1\Classes_Exercicio.dll
+D:\Courses\C#Completo\Classes_Exercicio\Classes_Exercicio\bin\Debug\netcoreapp3.1\Classes_Exercicio.pdb
+D:\Courses\C#Completo\Classes_Exercicio\Classes_Exercicio\obj\Debug\netcoreapp3.1\Classes_Exercicio.dll
+D:\Courses\C#Completo\Classes_Exercicio\Classes_Exercicio\obj\Debug\netcoreapp3.1\Classes_Exercicio.pdb
+D:\Courses\C#Completo\Classes_Exercicio\Classes_Exercicio\obj\Debug\netcoreapp3.1\Classes_Exercicio.genruntimeconfig.cache
