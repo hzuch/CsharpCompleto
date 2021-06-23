@@ -7,39 +7,51 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int n = int.Parse(Console.ReadLine());
+            string[] n = Console.ReadLine().Split(" ");
 
-            int[,] mat = new int[n, n];
+            int row = int.Parse(n[0]);
+            int col = int.Parse(n[1]);
 
-            for (int i = 0; i < n; i++)
+            //creates 2d array according to user input
+            int[,] mat = new int[row, col];
+
+            for (int i = 0; i < row; i++)
             {
                 string[] values = Console.ReadLine().Split(' ');
-                for (int j = 0; j < n; j++)
+                for (int j = 0; j < col; j++)
                 {
                     mat[i, j] = int.Parse(values[j]);
                 }
             }
-            Console.Write("main diagonal:");
-            for (int i = 0; i < n; i++)
-            {
-                Console.Write(mat[i,i] + " ");
-            }
 
-            int count = 0;
-            for (int i = 0; i < n; i++)
+            int nSearchedFor = int.Parse(Console.ReadLine());
+            for (int i = 0; i < row; i++)
             {
-                for (int j = 0; j < n; j++)
+                for (int j = 0; j < col; j++)
                 {
-                    if (mat[i,j] < 0)
+                    if (mat[i,j] == nSearchedFor)
                     {
-                        count++;
+                        Console.WriteLine("Position: " + i + ',' + j);
+                        if (j > 0)
+                        {
+                            Console.WriteLine("Left: " + mat[i, j - 1]);
+                        }
+                        if (i > 0)
+                        {
+                            Console.WriteLine("Up: " + mat[i - 1, j]);
+                        }
+                        if (j < row - 1)
+                        {
+                            Console.WriteLine("Right: " + mat[i, j + 1]);
+                        }
+                        if (i < col - 1)
+                        {
+                            Console.WriteLine("Down: " + mat[i + 1, j]);
+                        }
+                        Console.WriteLine();
                     }
                 }
             }
-
-            Console.Write("Number of negatives numbers: ");
-            Console.WriteLine(count);
-
         }
     }
 }
