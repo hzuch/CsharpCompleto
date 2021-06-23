@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ConsoleApp1
 {
@@ -6,33 +7,39 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            
-            Pensioner[] rooms = new Pensioner[10];
-
-            Console.Write("How many rooms will be rented? ");
             int n = int.Parse(Console.ReadLine());
+
+            int[,] mat = new int[n, n];
 
             for (int i = 0; i < n; i++)
             {
-                Console.WriteLine("Rent #" + (i + 1) + ":");
-                Console.Write("Name: ");
-                string name = Console.ReadLine();
-                Console.Write("Email: ");
-                string email = Console.ReadLine();
-                Console.Write("Room number: ");
-                int roomNumber = int.Parse(Console.ReadLine());
-
-                rooms[roomNumber] = new Pensioner { Name = name, Email = email };
-            }
-
-            Console.WriteLine("Busy rooms:");
-            for (int i = 0; i < rooms.Length; i++)
-            {
-                if (rooms[i] != null)
+                string[] values = Console.ReadLine().Split(' ');
+                for (int j = 0; j < n; j++)
                 {
-                    Console.WriteLine(i + ": " + rooms[i].ToString()); 
+                    mat[i, j] = int.Parse(values[j]);
                 }
             }
+            Console.Write("main diagonal:");
+            for (int i = 0; i < n; i++)
+            {
+                Console.Write(mat[i,i] + " ");
+            }
+
+            int count = 0;
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    if (mat[i,j] < 0)
+                    {
+                        count++;
+                    }
+                }
+            }
+
+            Console.Write("Number of negatives numbers: ");
+            Console.WriteLine(count);
+
         }
     }
 }
