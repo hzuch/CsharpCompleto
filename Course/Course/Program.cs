@@ -7,16 +7,18 @@ namespace Course
     {
         static void Main(string[] args)
         {
-            string sourcePath = @"c:\temp\file1.txt";
-            string targetPath = @"c:\temp\file2.txt";
+            string path = @"c:\temp\file1.txt";
+            //FileStream fs = null;
+            StreamReader sr = null;
 
             try
             {
-                FileInfo fileInfo = new FileInfo(sourcePath);
-                fileInfo.CopyTo(targetPath);
-                string[] lines = File.ReadAllLines(sourcePath);
-                foreach (string line in lines)
+                //fs = new FileStream(path, FileMode.Open);
+                //sr = new StreamReader(fs);
+                sr = File.OpenText(path);
+                while (!sr.EndOfStream)
                 {
+                    string line = sr.ReadLine();
                     Console.WriteLine(line);
                 }
             }
@@ -24,6 +26,11 @@ namespace Course
             {
                 Console.WriteLine("An error occurred");
                 Console.WriteLine(e.Message);
+            }
+            finally
+            {
+                if (sr != null) sr.Close();
+                //if (fs != null) fs.Close();
             }
         }
     }
