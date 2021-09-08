@@ -7,20 +7,25 @@ namespace Course
     {
         static void Main(string[] args)
         {
-            string SourcePath = @"c:\temp\file1.txt";
-            string TargePath = @"c:\temp\file2.txt";
+            string path = @"c:\temp\";
 
             try
             {
-                string[] lines = File.ReadAllLines(SourcePath);
-
-                using (StreamWriter sw = File.AppendText(TargePath))
+                var folders = Directory.EnumerateDirectories(path, "*.*", SearchOption.AllDirectories);
+                Console.WriteLine("FOLDERS:");
+                foreach (string folder in folders)
                 {
-                    foreach (string line in lines)
-                    {
-                        sw.WriteLine(line.ToUpper());
-                    }
+                    Console.WriteLine(folder);
                 }
+
+                var files = Directory.EnumerateFiles(path, "*.*", SearchOption.AllDirectories);
+                Console.WriteLine("Files:");
+                foreach (string file in files)
+                {
+                    Console.WriteLine(file);
+                }
+
+                Directory.CreateDirectory(@"C:\temp\newfolder");
             }
             catch (IOException e)
             {
